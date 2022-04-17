@@ -1,0 +1,36 @@
+PODS:
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - NCMB (3.1.0)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - KRProgressHUD
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`)
+  - SwiftGifOrigin (~> 1.7.0)
+
+SPEC REPOS:
+  trunk:
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - SwiftGifOrigin
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: f11ec347e410179817d72ac2be21f4578b11bc5f
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: 6a85e3d26575ac1f4e7a37a0ea4aa0fcf32e3e44
+
+COCOAPODS: 1.11.3

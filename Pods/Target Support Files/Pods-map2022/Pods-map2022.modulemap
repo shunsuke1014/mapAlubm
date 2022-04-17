@@ -1,0 +1,6 @@
+framework module Pods_map2022 {
+  umbrella header "Pods-map2022-umbrella.h"
+
+  export *
+  module * { export * }
+}
